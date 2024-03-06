@@ -1,5 +1,5 @@
 package golangtestingmodules
 
-func Hello() string {
-	return "Hello World New Version 1.5.0"
+func Hello(name string) string {
+	return "Hello World New Version 1.5.0" + name
 }
